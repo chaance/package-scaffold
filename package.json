@@ -1,0 +1,38 @@
+{
+	"name": "@chance/package-scaffold",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"format": "prettier --write ./",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsup"
+	},
+	"author": "Chance Strickland <hi@chance.dev>",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.42.0",
+		"@typescript-eslint/parser": "^5.42.0",
+		"@vitest/ui": "^0.24.5",
+		"eslint": "^8.26.0",
+		"eslint-config-chance": "^2.0.2",
+		"eslint-import-resolver-node": "^0.3.6",
+		"eslint-import-resolver-typescript": "^3.5.2",
+		"eslint-plugin-import": "^2.26.0",
+		"happy-dom": "7.6.6",
+		"prettier": "^2.7.1",
+		"terser": "^5.15.1",
+		"tsup": "^6.4.0",
+		"typescript": "^4.8.4",
+		"vite": "^3.2.2",
+		"vitest": "^0.24.5"
+	},
+	"files": [
+		"dist",
+		"src",
+		"CHANGELOG.md",
+		"LICENSE",
+		"README.md"
+	]
+}
